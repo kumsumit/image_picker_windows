@@ -196,18 +196,20 @@ packages:
   file_selector_platform_interface:
     dependency: "direct main"
     description:
-      name: file_selector_platform_interface
-      sha256: "0aa47a725c346825a2bd396343ce63ac00bda6eff2fbc43eabe99737dede8262"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: c72b7daf98a78d46248074eadcd6a7d5baf90b38
+      url: "https://github.com/kumsumit/file_selector_platform_interface.git"
+    source: git
     version: "2.6.1"
   file_selector_windows:
     dependency: "direct main"
     description:
-      name: file_selector_windows
-      sha256: d3547240c20cabf205c7c7f01a50ecdbc413755814d6677f3cb366f04abcead0
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "06f24de093f66a90d4a364cb280655efc1947a30"
+      url: "https://github.com/kumsumit/file_selector_windows.git"
+    source: git
     version: "0.9.3+1"
   fixnum:
     dependency: transitive
@@ -278,10 +280,11 @@ packages:
   image_picker_platform_interface:
     dependency: "direct main"
     description:
-      name: image_picker_platform_interface
-      sha256: ed9b00e63977c93b0d2d2b343685bed9c324534ba5abafbb3dfbd6a780b1b514
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "83b9c6541f46e5260b3ef70ae41f4299e7175a6c"
+      url: "https://github.com/kumsumit/image_picker_platform_interface.git"
+    source: git
     version: "2.9.1"
   io:
     dependency: transitive
@@ -351,10 +354,10 @@ packages:
     dependency: "direct dev"
     description:
       name: mockito
-      sha256: "8b46d7eb40abdda92d62edd01546051f0c27365e65608c284de336dccfef88cc"
+      sha256: "7d5b53bcd556c1bc7ffbe4e4d5a19c3e112b7e925e9e172dd7c6ad0630812616"
       url: "https://pub.dev"
     source: hosted
-    version: "5.4.1"
+    version: "5.4.2"
   package_config:
     dependency: transitive
     description:
@@ -374,10 +377,11 @@ packages:
   plugin_platform_interface:
     dependency: transitive
     description:
-      name: plugin_platform_interface
-      sha256: da3fdfeccc4d4ff2da8f8c556704c08f912542c5fb3cf2233ed75372384a034d
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "1d6e1c5fae93958d50ce0595ef687d8195088d21"
+      url: "https://github.com/kumsumit/plugin_platform_interface.git"
+    source: git
     version: "2.1.6"
   pool:
     dependency: transitive
@@ -545,5 +549,5 @@ packages:
     source: hosted
     version: "3.1.2"
 sdks:
-  dart: ">=3.1.0-185.0.dev <4.0.0"
-  flutter: ">=3.7.0"
+  dart: ">=3.1.0 <4.0.0"
+  flutter: ">=3.13.0"
