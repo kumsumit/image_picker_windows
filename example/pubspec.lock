@@ -68,18 +68,20 @@ packages:
   file_selector_platform_interface:
     dependency: transitive
     description:
-      name: file_selector_platform_interface
-      sha256: "0aa47a725c346825a2bd396343ce63ac00bda6eff2fbc43eabe99737dede8262"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: c72b7daf98a78d46248074eadcd6a7d5baf90b38
+      url: "https://github.com/kumsumit/file_selector_platform_interface.git"
+    source: git
     version: "2.6.1"
   file_selector_windows:
     dependency: transitive
     description:
-      name: file_selector_windows
-      sha256: d3547240c20cabf205c7c7f01a50ecdbc413755814d6677f3cb366f04abcead0
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "06f24de093f66a90d4a364cb280655efc1947a30"
+      url: "https://github.com/kumsumit/file_selector_windows.git"
+    source: git
     version: "0.9.3+1"
   flutter:
     dependency: "direct main"
@@ -123,10 +125,11 @@ packages:
   image_picker_platform_interface:
     dependency: "direct main"
     description:
-      name: image_picker_platform_interface
-      sha256: ed9b00e63977c93b0d2d2b343685bed9c324534ba5abafbb3dfbd6a780b1b514
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "83b9c6541f46e5260b3ef70ae41f4299e7175a6c"
+      url: "https://github.com/kumsumit/image_picker_platform_interface.git"
+    source: git
     version: "2.9.1"
   image_picker_windows:
     dependency: "direct main"
@@ -186,10 +189,11 @@ packages:
   plugin_platform_interface:
     dependency: transitive
     description:
-      name: plugin_platform_interface
-      sha256: da3fdfeccc4d4ff2da8f8c556704c08f912542c5fb3cf2233ed75372384a034d
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "1d6e1c5fae93958d50ce0595ef687d8195088d21"
+      url: "https://github.com/kumsumit/plugin_platform_interface.git"
+    source: git
     version: "2.1.6"
   sky_engine:
     dependency: transitive
@@ -263,42 +267,47 @@ packages:
   video_player:
     dependency: "direct main"
     description:
-      name: video_player
-      sha256: d3910a8cefc0de8a432a4411dcf85030e885d8fef3ddea291f162253a05dbf01
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "4c91740532e1fae3214a4774efa250909b52dbca"
+      url: "https://github.com/kumsumit/video_player.git"
+    source: git
     version: "2.7.1"
   video_player_android:
     dependency: transitive
     description:
-      name: video_player_android
-      sha256: "3fe89ab07fdbce786e7eb25b58532d6eaf189ceddc091cb66cba712f8d9e8e55"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "1746a07a5659d23096a7f3b1df03baa32312d19a"
+      url: "https://github.com/kumsumit/video_player_android.git"
+    source: git
     version: "2.4.10"
   video_player_avfoundation:
     dependency: transitive
     description:
-      name: video_player_avfoundation
-      sha256: c3b123a5a56c9812b9029f840c65b92fd65083eb08d69be016b01e8aa018f77d
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "5e901e5db32d7b1ba73d4ee30b8917813aeceeea"
+      url: "https://github.com/kumsumit/video_player_avfoundation.git"
+    source: git
     version: "2.4.10"
   video_player_platform_interface:
     dependency: transitive
     description:
-      name: video_player_platform_interface
-      sha256: be72301bf2c0150ab35a8c34d66e5a99de525f6de1e8d27c0672b836fe48f73a
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "61ed3e9838c39f024bb9646e80f8aad532b83bfe"
+      url: "https://github.com/kumsumit/video_player_platform_interface.git"
+    source: git
     version: "6.2.1"
   video_player_web:
     dependency: transitive
     description:
-      name: video_player_web
-      sha256: "66fc0d56554143fee4c623f70e45e4272b94fd246283cb67edabb9d1e4122a4f"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: ac50c076a63207c30c9478612923bedec2727cfc
+      url: "https://github.com/kumsumit/video_player_web.git"
+    source: git
     version: "2.1.0"
   web:
     dependency: transitive
